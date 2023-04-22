@@ -16,6 +16,10 @@ The project will be available at http://localhost:4200.
 
 The api key is saved as a variable in the code. In real life, it’s best practice to encrypt API keys and other sensitive information so that they are not exposed in plain text.
 
-<img width="462" alt="Screenshot 2023-04-22 at 23 05 17" src="https://user-images.githubusercontent.com/33568045/233804219-7f112ab4-3d16-48b2-ae46-443a93c9c78a.png">
-ננ
 
+
+
+
+**Screenshot**
+
+<img width="462" alt="Screenshot 2023-04-22 at 23 05 17" src="https://user-images.githubusercontent.com/33568045/233804219-7f112ab4-3d16-48b2-ae46-443a93c9c78a.png">
