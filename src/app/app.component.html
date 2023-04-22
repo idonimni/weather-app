@@ -1,0 +1,19 @@
+<div>
+  <label for="city">Enter City Name: </label>
+  <input #city placeholder="City Name">
+  <button (click)="getWeatherByCity(city.value)">Get Weather by city name</button>
+</div>
+
+<div>
+  <label for="zip">Enter Zip Code:</label>
+  <input #zip placeholder="Zip Code">
+  <button (click)="getWeatherByZip(zip.value)">Get Weather by zip code</button>
+</div>
+
+<h2>Current Weather:</h2>
+
+<div>
+  <p>City: {{ weatherData.name}}</p>
+  <p>Current Temperature: {{ weatherData.main.temp}} &#8451;</p>
+  <p>Weather Conditions: {{ weatherData.weather[0].description}}</p>
+</div>
